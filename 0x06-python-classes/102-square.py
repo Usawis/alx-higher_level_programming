@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-
 """Define a class Square."""
 
 
@@ -8,7 +7,6 @@ class Square:
 
     def __init__(self, size=0):
         """Initialize a new square.
-
         Args:
             size (int): The size of the new square.
         """
@@ -54,4 +52,3 @@ class Square:
     def __ge__(self, other):
         """Define the >= compmarison to a Square."""
         return self.area() >= other.area()
-
